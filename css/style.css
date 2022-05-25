@@ -1,0 +1,21 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.loader {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-block-start: 4px solid #03fc00;
+    border-inline-end: 4px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
